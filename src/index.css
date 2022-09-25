@@ -10,13 +10,14 @@ html {
 
 body {
   margin: 0;
-  padding: 60px 80px;
-  background-color: rgb(6, 41, 41);
+
+  background-color: #00302e;
   color: white;
 }
 p,
 a,
 span,
+ul,
 li {
   color: white;
   text-decoration: none;

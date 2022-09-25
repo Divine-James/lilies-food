@@ -1,0 +1,43 @@
+.notified {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+  padding: 0 110px;
+}
+.notified-heading {
+  width: 549px;
+  height: 33px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 33px;
+  color: rgba(251, 221, 187, 1);
+}
+.notified-paragraph {
+  width: 531px;
+  height: 66px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.95);
+}
+.notify-me {
+  width: 299px;
+  height: 51px;
+  border-radius: 5px;
+  background-color: rgba(247, 247, 247, 1);
+  border: 1px solid rgba(179, 179, 179, 1);
+}
+.notify-btn {
+  width: 182px;
+  height: 51px;
+  border-radius: 5px;
+  padding: 15px 40px;
+  gap: 10px;
+  background-color: rgba(251, 221, 187, 1);
+}
+.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}

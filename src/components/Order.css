@@ -1,0 +1,29 @@
+.order {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding: 0 110px;
+}
+.order-item {
+  display: flex;
+  flex-direction: column;
+}
+.order-item h1 {
+  font-size: 64px;
+  width: 650;
+  height: 167;
+  line-height: 77px;
+  font-weight: 500;
+}
+.order-item p {
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 400;
+  width: 609px;
+  height: 77px;
+  color: rgba(255, 255, 255, 0.74);
+}
+.downloadimg {
+  margin-right: 20px;
+}

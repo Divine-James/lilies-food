@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding: 60px 110px;
 }
 .nav-icon {
   display: flex;
@@ -21,12 +22,12 @@
 }
 .nav-link:first-child {
   margin-right: 40px;
-  color: wheat;
+  color: #e2b887;
 }
 .nav-link:last-child {
-  margin-left: 40px;
   padding: 10px 25px;
-  background-color: wheat;
-  border-radius: 5px;
-  color: #152415;
+  border-radius: 7px;
+  background-color: #e2b887;
+  color: #00302e;
+  margin-left: 40px;
 }

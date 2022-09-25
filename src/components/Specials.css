@@ -1,0 +1,52 @@
+.special {
+  padding: 0 110px;
+}
+
+.special-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.special-text h2 {
+  width: 463px;
+  height: 33px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.87);
+  margin-top: 150px;
+}
+.special-text p {
+  width: 609px;
+  height: 77px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.83);
+}
+.special-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.about-food h3 {
+  color: rgba(251, 221, 187, 1);
+  font-weight: 700;
+  text-align: center;
+  font-size: 27px;
+  width: 177px;
+  height: 33px;
+  line-height: 33px;
+  margin: 15px auto;
+}
+.about-food p {
+  width: 288px;
+  height: 66px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.83);
+}
