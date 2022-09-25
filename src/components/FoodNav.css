@@ -1,0 +1,32 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav-icon {
+  display: flex;
+  text-align: center;
+}
+.nav-icon h2 {
+  margin-left: 15px;
+  font-size: 30px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  font-size: 25px;
+}
+.nav-link:first-child {
+  margin-right: 40px;
+  color: wheat;
+}
+.nav-link:last-child {
+  margin-left: 40px;
+  padding: 10px 25px;
+  background-color: wheat;
+  border-radius: 5px;
+  color: #152415;
+}
