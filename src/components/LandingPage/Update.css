@@ -34,6 +34,7 @@
   padding: 15px 40px;
   gap: 10px;
   background-color: rgba(251, 221, 187, 1);
+  border: 1px solid rgba(179, 179, 179, 1);
 }
 .notification {
   display: flex;

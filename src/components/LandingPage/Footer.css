@@ -1,8 +1,11 @@
 .footer {
   background-color: #0b0d17;
   padding: 40px 150px;
+}
+.footer-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .footer-item {
   display: flex;
@@ -33,4 +36,30 @@
   width: 162px;
   height: 48px;
   margin-bottom: 10px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0d17;
+  padding: 40px 150px;
+}
+.footer-bottom p {
+  width: 540px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.social-list {
+  display: flex;
+}
+.social-list img {
+  margin-right: 20px;
+}
+hr {
+  width: 1500px;
+  padding: 0px;
+  margin: 0;
 }
