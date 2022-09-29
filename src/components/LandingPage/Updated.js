@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Update.css";
 
-function Updated() {
+function Updated(props) {
+  const [title, setTitle] = useState(props.title);
+
+  const clickHandler = () => {
+    setTitle("Notified");
+    console.log("clicked");
+  };
+
   return (
     <div className="notified">
       <div>
@@ -20,7 +27,9 @@ function Updated() {
             className="notify-me"
           />
         </form>
-        <button className="notify-btn">Get notified</button>
+        <button onClick={clickHandler} className="notify-btn">
+          {title}
+        </button>
       </div>
     </div>
   );

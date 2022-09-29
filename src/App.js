@@ -6,12 +6,21 @@ import Updated from "./components/LandingPage/Updated";
 import Footer from "./components/LandingPage/Footer";
 
 function App() {
+  const navbar = [
+    { head: "Lillies", home: "Home", login: "Login", signup: "Signup" },
+  ];
+  const title = "Get started";
   return (
     <div>
-      <FoodNav></FoodNav>
+      <FoodNav
+        head={navbar[0].head}
+        home={navbar[0].home}
+        login={navbar[0].login}
+        signup={navbar[0].signup}
+      ></FoodNav>
       <Order></Order>
       <Specials></Specials>
-      <Updated></Updated>
+      <Updated title={title}></Updated>
       <Footer></Footer>
     </div>
   );

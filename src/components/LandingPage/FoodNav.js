@@ -1,23 +1,23 @@
 import React from "react";
 import "./FoodNav.css";
 
-function FoodNav() {
+function FoodNav(props) {
   return (
     <div>
       <nav className="nav-bar">
         <div className="nav-icon">
           <img src="img/lily-icon.svg" alt="lily icon" />
-          <h2>Lillies</h2>
+          <h2>{props.head}</h2>
         </div>
         <div className="nav-links">
           <a href="www.google.com" className="nav-link">
-            Home
+            {props.home}
           </a>
           <a href="www.google.com" className="nav-link">
-            Login
+            {props.login}
           </a>
           <a href="www.google.com" className="nav-link">
-            Signup
+            {props.login}
           </a>
         </div>
       </nav>
