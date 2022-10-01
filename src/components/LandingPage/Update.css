@@ -42,3 +42,7 @@
   flex-direction: row;
   align-items: center;
 }
+.form-control.invalid input {
+  border-color: brown;
+  background-color: brown;
+}

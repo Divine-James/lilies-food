@@ -2,11 +2,27 @@ import React, { useState } from "react";
 import "./Update.css";
 
 function Updated(props) {
+  const [enteredValue, setEnteredValue] = useState("");
+  const [isValid, setIsValid] = useState(true);
   const [title, setTitle] = useState(props.title);
 
   const clickHandler = () => {
     setTitle("Notified");
     console.log("clicked");
+  };
+
+  const emailChangeHandler = (event) => {
+    if (event.target.value.trim().length > 0) {
+      setIsValid(true);
+    }
+    setEnteredValue(event.target.value);
+  };
+  const formSubmitHandler = (event) => {
+    event.preventDefault();
+    if (enteredValue.trim().length === 0) {
+      setIsValid(false);
+      return;
+    }
   };
 
   return (
@@ -19,17 +35,21 @@ function Updated(props) {
         </p>
       </div>
       <div className="notification">
-        <form action="#">
+        <form
+          onSubmit={formSubmitHandler}
+          className={`form-control ${!isValid ? "invalid" : ""}`}
+        >
           <input
             type="text"
             name="email"
+            onChange={emailChangeHandler}
             placeholder="gregsphilips@gmail.com"
             className="notify-me"
           />
+          <button type="submit" className="notify-btn" onClick={clickHandler}>
+            {title}
+          </button>
         </form>
-        <button onClick={clickHandler} className="notify-btn">
-          {title}
-        </button>
       </div>
     </div>
   );
